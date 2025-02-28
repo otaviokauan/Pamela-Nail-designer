@@ -1,0 +1,104 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8e0d8; /* Bege suave */
+    color: #000000; /* Marrom avermelhado */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f15a5a; /* Vermelho rosado */
+    padding: 30px;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #f8a6a6c7;
+    padding: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #020202; /* Rosa queimado */
+    font-weight: bold;
+}
+
+.sobre, .servicos, .galeria, .contato {
+    padding: 30px;
+}
+
+.servico {
+    background: #f86c8f;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #000000;
+    margin: 15px auto;
+    padding: 15px;
+    width: 80%;
+}
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.unha {
+    background: #f86c8f;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.05);
+    margin: 15px;
+    padding: 10px;
+    width: 250px;
+}
+
+.unha img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #000000; /* Vermelho rosado */
+}
+
+p {
+    font-size: 18px;
+    color: #a30202;
+    font-weight: bold;
+}
+
+.btn {
+    display: inline-block;
+    background: #ff0101; /* Rosa queimado */
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #C04251; /* Vermelho mais escuro */
+}
+
+footer {
+    background-color: #ffffff; /* Vermelho rosado */
+    padding: 15px;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+}
